@@ -1,0 +1,186 @@
+@import url(https://fonts.googleapis.com/css?family=Lato|Playfair+Display);
+
+
+/*These rules create the basic layout*/
+
+html {
+    background: white;
+}
+
+body {
+    width: 1200px;
+    height: auto;
+    background: white;
+    border: black;
+}
+
+header {
+    width: 1200px;
+    height: 30px;
+    background: grey;
+    font-family: 'Lato, 300', sans-serif;
+    position: fixed;
+}
+
+
+/*These rules format the site navigation*/
+
+nav {
+    height: 135px;
+    width: 1200px;
+    background: white;
+    font-family: 'Lato, 400', sans-serif;
+    position: fixed;
+    top: 30px;
+    padding-bottom: 10px;
+    float: right
+    
+}
+
+ul {
+    padding-right: 20px;
+    list-style-type: none;
+    padding-top: 60px;
+    padding-right: 40px;
+    text-align: right;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    padding: 16px;
+    color: grey;
+    font-size: 18px;
+   
+}
+
+a:hover {
+    color: orangered;
+}
+
+
+/*These rules format the site content*/
+
+
+p {
+    margin: 0;
+    font-size: 26px;
+    color: black;
+    line-height: 37px;
+    text-align: left;
+    padding-left: px;
+}
+
+.top{
+    width: 1200px;
+    background: white;
+    padding-top: 175px;
+}
+
+.middle{
+    width: 1200px;
+    height: ;
+    background: grey;
+    padding-top: 10px; 
+    position: fixed;
+}
+
+.bottom{
+    width: 1200px;
+    height: auto;
+    background: white;
+}
+
+.background{
+    width: 1200px;
+    height: 700px;
+    padding-top: ;
+    background: url("../images/1200pxBayBridge.jpg");
+}
+
+
+.logo{
+    float: left;
+    padding-top: 63px;
+    padding-left: 40px;
+    padding-right: px;
+}
+
+.navigation{
+    float: right;
+    width: ;
+    padding-top: 100px;
+    padding-left: px;
+}
+
+.aboutleft{
+    float: left;
+    padding-right: 0px;
+    padding-left: 40px;
+    padding-top: 60px;
+    
+}
+
+.aboutright{
+    float: right;
+    width: 42%;
+    padding-top: 62px;
+    padding-right: 160px
+}
+
+.contactright{
+    float: right;
+    text-align: right;
+    font-size: 32px;
+    font-family: playfair display;
+    line-height: 72px;
+    padding-top: 120px;
+    padding-right: 60px;
+}
+
+h2 {
+    font-family: 'Lato, 300', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 9px;
+    padding-left: 40px;
+    
+}
+
+h1 {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h3 {
+    padding-top: 175px;
+    text-align: center;
+    font-size: 85px;
+    color: white;
+    font-family: 'playfair display, 400', serif
+}
+
+.images{
+    width:1200px;
+    height: 875px;
+    background: white;
+}
+
+.gallery{
+    width: 300px;
+    height: auto;
+    margin:20px;
+    padding-top:40px;
+    padding-left: 40px;
+}
+
+.footer{
+    width: 1200px;
+    height: 200px;
+    
+}
