@@ -67,7 +67,7 @@ a:hover {
 
 p {
     margin: 0;
-    font-size: 26px;
+    font-size: 18px;
     color: black;
     line-height: 37px;
     text-align: left;
@@ -134,7 +134,7 @@ p {
 .contactright{
     float: right;
     text-align: right;
-    font-size: 32px;
+    font-size: 26px;
     font-family: playfair display;
     line-height: 72px;
     padding-top: 120px;
